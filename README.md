@@ -1,6 +1,6 @@
 # Practical approach to learn the basics of react hooks
 
-### Code provided by https://johnsmilga.com
+- Code provided by https://johnsmilga.com
 
 ## This is a practice tutorial to learn React hooks
 
