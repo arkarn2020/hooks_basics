@@ -8,3 +8,5 @@
 2. useEffect
 3. Conditional rendering using react hooks
 4. in progress...
+
+All components are comment-out except one in App.js

@@ -6,9 +6,9 @@ import React from 'react';
 // import UseStateCounter from './components/usestate/UseStateCounter';
 
 // useeffect folder
-import UseEffectBasics from './components/useeffect/UseEffectBasics';
-import UseEffectCleanup from './components/useeffect/UseEffectCleanup';
-import UseEffectSecondArgument from './components/useeffect/UseEffectSecondArgument';
+// import UseEffectBasics from './components/useeffect/UseEffectBasics';
+// import UseEffectCleanup from './components/useeffect/UseEffectCleanup';
+// import UseEffectSecondArgument from './components/useeffect/UseEffectSecondArgument';
 
 // conditional rendering
 import MultipleReturns from './components/conditional-rendering/MultipleReturns';
@@ -22,9 +22,9 @@ function App() {
       <UseStateCounter /> */}
 
       {/* useeffect folder components */}
-      <UseEffectBasics />
+      {/* <UseEffectBasics />
       <UseEffectCleanup />
-      <UseEffectSecondArgument />
+      <UseEffectSecondArgument /> */}
 
       {/* conditional rendering */}
       <MultipleReturns />
