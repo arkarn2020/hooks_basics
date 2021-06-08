@@ -15,7 +15,7 @@ const UseEffectBasics = () => {
   // }, [input]);       // second parameter
 
   useEffect(() => {
-    console.log('useeffect is called ');
+    console.log('useeffect is called on main');
     if (value > 0) {
       document.title = `New messages(${value})`;
     }
@@ -23,11 +23,11 @@ const UseEffectBasics = () => {
   }, [value]);
 
   useEffect(() => {
-    console.log('hello');
+    console.log('hello on main branch in git');
     return () => {};
   }, []);
 
-  console.log('component is rendered then');
+  console.log('component is rendered then on main');
 
   return (
     <>
