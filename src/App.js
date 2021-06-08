@@ -1,9 +1,9 @@
 import React from 'react';
 
 // usestate folder
-// import UseStateBasics from './components/usestate/UseStateBasics';
-// import UseStateObject from './components/usestate/UseStateObject';
-// import UseStateCounter from './components/usestate/UseStateCounter';
+import UseStateBasics from './components/usestate/UseStateBasics';
+import UseStateObject from './components/usestate/UseStateObject';
+import UseStateCounter from './components/usestate/UseStateCounter';
 
 // useeffect folder
 // import UseEffectBasics from './components/useeffect/UseEffectBasics';
@@ -17,9 +17,9 @@ function App() {
     <div className="container">
       {/* usestate folder components */}
 
-      {/* <UseStateBasics />
+      <UseStateBasics />
       <UseStateObject />
-      <UseStateCounter /> */}
+      <UseStateCounter />
 
       {/* useeffect folder components */}
       {/* <UseEffectBasics />
