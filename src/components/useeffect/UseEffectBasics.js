@@ -15,7 +15,7 @@ const UseEffectBasics = () => {
   // }, [input]);       // second parameter
 
   useEffect(() => {
-    console.log('useeffect is called ');
+    // console.log('useeffect is called ');
     if (value > 0) {
       document.title = `New messages(${value})`;
     }
@@ -23,11 +23,11 @@ const UseEffectBasics = () => {
   }, [value]);
 
   useEffect(() => {
-    console.log('hello');
+    // console.log('hello');
     return () => {};
   }, []);
 
-  console.log('component is rendered then');
+  // console.log('component is rendered then');
 
   return (
     <>
