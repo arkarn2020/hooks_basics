@@ -8,3 +8,9 @@
 2. useEffect
 3. Conditional rendering using react hooks
 4. in progress...
+
+This line was added to test git branch merging
+mydev -> main
+
+This line was added to test git branch to branch merging
+test -> mydev -> main
