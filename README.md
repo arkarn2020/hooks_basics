@@ -2,7 +2,9 @@
 
 - Code provided by https://johnsmilga.com
 
-## This is a practice tutorial to learn React hooks
+* This is a practice tutorial to learn React hooks, it's a work in progress ...
+
+## React hooks are special react functions prefixed with use
 
 ### 1. useState
 
@@ -12,9 +14,9 @@
 
         const [currentValue, setCurrentValue] = useState(initialValue);
 
-  > Input - creates a state by passing `initialValue` as params
+  > Input - useState creates a state by passing `initialValue` as params
   >
-  > Returns - two values
+  > Output - useState returns two values
   >
   > 1.  a variable which holds current value of state `currentValue`
   > 2.  a function which updates the current value of state `setCurrentValue`
@@ -32,7 +34,7 @@
 
   > - 1. effect (anything wwith respect to app)
   >
-  > by default runs after every re-render of component (or whenever state changes
+  > by default useEffect runs after every re-render of component (or whenever state changes
   >
   > - 2. cleanup (function) `{OPTIONAL}`
   >
