@@ -10,8 +10,8 @@
 
 > - It takes initial values of state (as parameter)and returns two values
 
-> > 1.  current value of state
-> > 2.  a function which updates the value of state
+- 1.  current value of state
+- 2.  a function which updates the value of state
 
 2. useEffect
 
