@@ -2,9 +2,19 @@
 
 - Code provided by https://johnsmilga.com
 
-* This is a practice tutorial to learn React hooks, it's a work in progress ...
+- This is a practice tutorial to learn React hooks, it's a work in progress ...
 
 ## React hooks are special react functions prefixed with use
+
+- Must be used inside functional components only (like class components have lifecycle methods)
+- Can't be used inside loops, conditions
+
+List of react hooks -
+
+1. useState()
+2. useEffect()
+3. useReducer()
+4. ...
 
 ### 1. useState
 
@@ -23,7 +33,7 @@
 
 ### 2. useEffect
 
-- why it's needed?? allows us to deal with side effects (effect) after reactive data changes
+- why it's needed?? allows us to deal with side effects (effect) after reactive data changes inside a component
 
         useEffect(() => {
           effect
