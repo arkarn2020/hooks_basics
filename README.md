@@ -6,7 +6,7 @@
 
 ### 1. useState
 
-- to preserve reactive data(data which changes over time) present inside a component
+- to preserve reactive data (data which changes over time) present inside a component
 
 - it takes initial values `initialValue` of any reactive data as parameter , creates a state `useState(initialValue)` and returns two values `currentValue` and `setCurrentValue` which can be combined in an array like this
 
@@ -21,7 +21,7 @@
 
 ### 2. useEffect
 
-- allows us to deal with side effects(effect)
+- allows us to deal with side effects (effect)
 
         useEffect(() => {
           effect
@@ -30,22 +30,25 @@
             }
         }, [input])
 
-  > 1. effect (anything related to component/app)
-  >    > by default runs after every re-render of component (or when state changes)
+  > 1.  effect (anything wwith respect to app)
+  >
+  > by default runs after every re-render of component (or whenever state changes
+  >
+  > 2.  cleanup (function) `OPTIONAL`
+  >
+  > to stop memory leak(like addition of eventlisteners) we have to cleanup resources else it will be a mess in large app
 
-  > 2. cleanup (function) `OPTIONAL`
-  >    > to stop memory leak(like addition of eventlisteners) we have to cleanup resources else it will be a mess in large app
+  > 3. input (dependency parameter) `OPTIONAL`
+  >
+  > an array of dependency based on which side effect will run
 
-  > 3. input (dependency parameter)
-  >    > an array of dependency based on which side effect will run
+        [ ]
 
-            [ ]
+  > > a) if it's empty effect will run only once at initial rendering of component.
 
-  > > > a) if it's empty effect will run only once at initial rendering of component.
+        [somestateVariable]
 
-            [somestateVariable]
-
-  > > > b) if present, effect will run if somestateVariable changes its state/value inside component
+  > > b) if present, effect will run if somestateVariable changes its state/value inside component
 
 3. Conditional rendering using react hooks
 
