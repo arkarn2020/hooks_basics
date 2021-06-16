@@ -12,12 +12,12 @@
 
         const [currentValue, setCurrentValue] = useState(initialValue);
 
-  > Input - creates a state by passing initial value(s) as params
+  > Input - creates a state by passing `initialValue` as params
   >
   > Returns - two values
   >
-  > 1.  a variable which holds current value of state (currentValue)
-  > 2.  a function which updates the current value of state (setCurrentValue)
+  > 1.  a variable which holds current value of state `currentValue`
+  > 2.  a function which updates the current value of state `setCurrentValue`
 
 ### 2. useEffect
 
