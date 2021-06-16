@@ -30,12 +30,12 @@
             }
         }, [input])
 
-  > 1. effect (anything related to component/app)- by default runs after every re-render of component
+  > 1. effect (anything related to component/app)- by default runs after every re-render of component (or when state changes)
   > 2. cleanup (function) - to stop memory leak(like addition of eventlisteners) we have to cleanup resources else it will be a mess in large app
   > 3. input (dependency parameter) - an array of dependency based on which side effect will run
   >
-  > - a) if it's empty it will run only once at initial rendering of component.
-  > - b) if present, effect will run if the variable here changes its state
+  > - a) [] - if it's empty it will run only once at initial rendering of component.
+  > - b) [someVariable] - if present, effect will run if someVariable changes its state inside component
 
 3. Conditional rendering using react hooks
 
