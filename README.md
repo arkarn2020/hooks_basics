@@ -8,12 +8,15 @@
 
 - to preserve reactive data(data which changes over time) present inside a component
 
-- It takes initial values of state (as parameter) and returns two values
+- it takes initial values of state (as parameter) and returns two values
 
         const [currentValue, setCurrentValue] = useState(initialValue);
 
-  > 1.  a variable which holds current value of state (currentValue)
-  > 2.  a function which updates the current value of state (setCurrentValue)
+  > Input - creates a state by passing an initial value(s) (initialValue)
+  > Returns - two values
+  >
+  > - a variable which holds current value of state (currentValue)
+  > - a function which updates the current value of state (setCurrentValue)
 
 2. useEffect
 
