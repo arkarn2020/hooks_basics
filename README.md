@@ -36,13 +36,11 @@
 
         [ ]
 
-
-  > - if it's empty it will run only once at initial rendering of component.
+  > a) if it's empty it will run only once at initial rendering of component.
 
         [somestateVariable]
 
-
-  > - if present, effect will run if someVariable changes its state inside component
+  > b) if present, effect will run if someVariable changes its state inside component
 
 3. Conditional rendering using react hooks
 
