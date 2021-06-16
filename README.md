@@ -30,10 +30,14 @@
             }
         }, [input])
 
-  > 1. effect (anything related to component/app)-
-  >    by default runs after every re-render of component (or when state changes)
-  > 2. cleanup (function) `OPTIONAL`- to stop memory leak(like addition of eventlisteners) we have to cleanup resources else it will be a mess in large app
-  > 3. input (dependency parameter) - an array of dependency based on which side effect will run
+  > 1. effect (anything related to component/app)
+  >    > by default runs after every re-render of component (or when state changes)
+
+  > 2. cleanup (function) `OPTIONAL`
+  >    > to stop memory leak(like addition of eventlisteners) we have to cleanup resources else it will be a mess in large app
+
+  > 3. input (dependency parameter)
+  >    > an array of dependency based on which side effect will run
 
         [ ]
 
