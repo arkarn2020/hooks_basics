@@ -13,6 +13,7 @@
         const [currentValue, setCurrentValue] = useState(initialValue);
 
   > Input - creates a state by passing an initial value(s) (initialValue)
+  >
   > Returns - two values
   >
   > - a variable which holds current value of state (currentValue)
