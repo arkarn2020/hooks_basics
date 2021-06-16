@@ -8,10 +8,10 @@
 
 > - to preserve reactive data(data which changes over time) present in a component inside a state variable
 
-> > - It takes initial values of state (as parameter)and returns two values
+> - It takes initial values of state (as parameter)and returns two values
 
-- 1.  current value of state
-- 2.  a function which updates the value of state
+    1.  current value of state
+    2.  a function which updates the value of state
 
 2. useEffect
 
