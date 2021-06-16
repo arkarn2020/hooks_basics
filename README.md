@@ -8,7 +8,7 @@
 
 ### 1. useState
 
-- to preserve reactive data (data which changes over time) present inside a component
+- why it's needed?? to preserve reactive data (data which changes over time) present inside a component
 
 - it takes initial values `initialValue` of any reactive data as parameter , creates a state `useState(initialValue)` and returns two values `currentValue` and `setCurrentValue` which can be combined in an array like this
 
@@ -23,7 +23,7 @@
 
 ### 2. useEffect
 
-- allows us to deal with side effects (effect)
+- why it's needed?? allows us to deal with side effects (effect) after reactive data changes
 
         useEffect(() => {
           effect
