@@ -8,11 +8,11 @@
 
 - to preserve reactive data(data which changes over time) present inside a component
 
-- it takes initial values of state (as parameter) and returns two values
+- it takes initial values `initialValue` of any reactive data as parameter , creates a state `useState(initialValue)` and returns two values `currentValue` and `setCurrentValue` which can be combined in an array like this
 
         const [currentValue, setCurrentValue] = useState(initialValue);
 
-  > Input - creates a state by passing an initial value(s) (initialValue)
+  > Input - creates a state by passing initial value(s) as params
   >
   > Returns - two values
   >
@@ -45,7 +45,7 @@
 
             [somestateVariable]
 
-  > > > b) if present, effect will run if somestateVariable changes its state inside component
+  > > > b) if present, effect will run if somestateVariable changes its state/value inside component
 
 3. Conditional rendering using react hooks
 
