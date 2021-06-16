@@ -41,13 +41,13 @@
   > - 3. input (dependency parameter) `OPTIONAL`
   >
   > an array of dependency based on which side effect will run
-  >
-  >     [ ]
-  >
+
+        [ ]
+
   > a) if it's empty effect will run only once at initial rendering of component.
-  >
-  >     [somestateVariable]
-  >
+
+        [somestateVariable]
+
   > b) if present, effect will run if somestateVariable changes its state/value inside component
 
 3. Conditional rendering using react hooks
