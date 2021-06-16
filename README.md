@@ -1,4 +1,4 @@
-# Practical approach to learn the basics of react hooks
+# Practical approach to learn basics of react hooks
 
 - Code provided by https://johnsmilga.com
 
@@ -44,11 +44,11 @@
 
         [ ]
 
-  > a) if it's empty effect will run only once at initial rendering of component.
+  > a) if it's empty, effect will run only once at initial rendering of component.
 
         [somestateVariable]
 
-  > b) if present, effect will run if somestateVariable changes its state/value inside component
+  > b) if present, effect will run if `somestateVariable` changes its state/value inside component
 
 3. Conditional rendering using react hooks
 
