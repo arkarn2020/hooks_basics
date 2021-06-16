@@ -40,7 +40,7 @@
 
         [somestateVariable]
 
-  > b) if present, effect will run if someVariable changes its state inside component
+  > b) if present, effect will run if somestateVariable changes its state inside component
 
 3. Conditional rendering using react hooks
 
