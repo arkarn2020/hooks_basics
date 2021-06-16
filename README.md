@@ -30,24 +30,24 @@
             }
         }, [input])
 
-  > - effect (anything wwith respect to app)
+  > - 1. effect (anything wwith respect to app)
   >
   > by default runs after every re-render of component (or whenever state changes
   >
-  > - cleanup (function) `OPTIONAL`
+  > - 2. cleanup (function) `OPTIONAL`
   >
   > to stop memory leak(like addition of eventlisteners) we have to cleanup resources else it will be a mess in large app
-
-  > - input (dependency parameter) `OPTIONAL`
+  >
+  > - 3. input (dependency parameter) `OPTIONAL`
   >
   > an array of dependency based on which side effect will run
-
-  >         [ ]
-
+  >
+  >     [ ]
+  >
   > a) if it's empty effect will run only once at initial rendering of component.
-
-  >         [somestateVariable]
-
+  >
+  >     [somestateVariable]
+  >
   > b) if present, effect will run if somestateVariable changes its state/value inside component
 
 3. Conditional rendering using react hooks
