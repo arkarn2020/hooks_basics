@@ -4,16 +4,16 @@
 
 ## This is a practice tutorial to learn React hooks
 
-1. useState
+### 1. useState
 
-- to preserve reactive data(data which changes over time) present in a component inside a state variable
+- to preserve reactive data(data which changes over time) present inside a component
 
 - It takes initial values of state (as parameter) and returns two values
 
-  const [currentValue, setCurrentValue] = useState(initialValue);
+        const [currentValue, setCurrentValue] = useState(initialValue);
 
-  1.  a variable which holds current value of state (currentValue)
-  2.  a function which updates the current value of state (setCurrentValue)
+  > 1.  a variable which holds current value of state (currentValue)
+  > 2.  a function which updates the current value of state (setCurrentValue)
 
 2. useEffect
 
