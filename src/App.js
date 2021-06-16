@@ -1,9 +1,9 @@
 import React from 'react';
 
 // usestate folder
-import UseStateBasics from './components/usestate/UseStateBasics';
-import UseStateObject from './components/usestate/UseStateObject';
-import UseStateCounter from './components/usestate/UseStateCounter';
+// import UseStateBasics from './components/usestate/UseStateBasics';
+// import UseStateObject from './components/usestate/UseStateObject';
+// import UseStateCounter from './components/usestate/UseStateCounter';
 
 // useeffect folder
 // import UseEffectBasics from './components/useeffect/UseEffectBasics';
@@ -11,15 +11,24 @@ import UseStateCounter from './components/usestate/UseStateCounter';
 // import UseEffectSecondArgument from './components/useeffect/UseEffectSecondArgument';
 
 // conditional rendering
-import MultipleReturns from './components/conditional-rendering/MultipleReturns';
+// import MultipleReturns from './components/conditional-rendering/MultipleReturns';
+// import ShortCircuit from './components/conditional-rendering/ShortCircuit';
+// import ShowHide from './components/conditional-rendering/ShowHide';
+
+// forms
+// import ControlledInputs from './components/forms/ControlledInputs';
+// import MultipleInputs from './components/forms/MultipleInputs';
+
+// import UseRefBasics from './components/useref/UseRefBasics';
+import UseReducer from './components/usereducer';
+
 function App() {
   return (
     <div className="container">
       {/* usestate folder components */}
-
-      <UseStateBasics />
+      {/* <UseStateBasics />
       <UseStateObject />
-      <UseStateCounter />
+      <UseStateCounter /> */}
 
       {/* useeffect folder components */}
       {/* <UseEffectBasics />
@@ -27,7 +36,16 @@ function App() {
       <UseEffectSecondArgument /> */}
 
       {/* conditional rendering */}
-      <MultipleReturns />
+      {/* <MultipleReturns /> */}
+      {/* <ShortCircuit /> */}
+      {/* <ShowHide /> */}
+
+      {/* forms */}
+      {/* <ControlledInputs /> */}
+      {/* <MultipleInputs /> */}
+
+      {/* <UseRefBasics /> */}
+      <UseReducer />
     </div>
   );
 }

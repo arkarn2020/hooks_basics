@@ -20,6 +20,7 @@ const UseEffectCleanup = () => {
 
   return (
     <>
+      {/* resizing of window in real time */}
       <h2>window - {size} PX</h2>
     </>
   );
