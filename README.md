@@ -16,16 +16,16 @@
   >
   > Returns - two values
   >
-  > - a variable which holds current value of state (currentValue)
-  > - a function which updates the current value of state (setCurrentValue)
+  > 1.  a variable which holds current value of state (currentValue)
+  > 2.  a function which updates the current value of state (setCurrentValue)
 
-2. useEffect
+### 2. useEffect
 
 - allows us to deal with side effects(effects)
 
-- - 1. side effect - {default} useEffect() runs after every re-render of component
-- - 2. cleanup function - to stop memory leak(addition of eventlisteners) we have to cleanup the event listeners else it will be a mess in large app
-- - 3. second parameter - array of dependency based on which side effect will run, if it's empty it will run only once at the initial render
+- 1. side effect - {default} useEffect() runs after every re-render of component
+- 2. cleanup function - to stop memory leak(addition of eventlisteners) we have to cleanup the event listeners else it will be a mess in large app
+- 3. second parameter - array of dependency based on which side effect will run, if it's empty it will run only once at the initial render
 
 3. Conditional rendering using react hooks
 
