@@ -21,7 +21,7 @@
 
 ### 2. useEffect
 
-- allows us to deal with side effects(effects)
+- allows us to deal with side effects(effect)
 
         useEffect(() => {
           effect
@@ -30,9 +30,12 @@
             }
         }, [input])
 
-  > 1. side effect - {default} useEffect() runs after every re-render of component
-  > 2. cleanup function - to stop memory leak(addition of eventlisteners) we have to cleanup the event listeners else it will be a mess in large app
-  > 3. second parameter - array of dependency based on which side effect will run, if it's empty it will run only once at the initial render
+  > 1. effect (anything related to component/app)- by default runs after every re-render of component
+  > 2. cleanup (function) - to stop memory leak(like addition of eventlisteners) we have to cleanup resources else it will be a mess in large app
+  > 3. input (dependency parameter) - an array of dependency based on which side effect will run
+
+  1.  if it's empty it will run only once at initial rendering of component.
+  2.  if present, effect will run if the variable here changes its state
 
 3. Conditional rendering using react hooks
 
